@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App]![Screenshot from 2023-06-10 21-06-05](https://github.com/mdnizaam/my_portfolio/assets/73129284/2805491d-b689-415b-9f25-7f2c62fc84b3)
+This project created with react js and tailwindcss with typecsript [Create React App]![Screenshot from 2023-06-10 21-06-05](https://github.com/mdnizaam/my_portfolio/assets/73129284/2805491d-b689-415b-9f25-7f2c62fc84b3)
 (https://github.com/facebook/create-react-app).
 
 ## Available Scripts
