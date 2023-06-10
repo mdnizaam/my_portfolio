@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+:root {
+  --color-primary-white: #d5d5d8;
+  --color-secondary-dark: #2c2d33;
+  --color-secondary-light: #37373a;
+  --color-secondary-yellow: #eab431;
+}
+
+code {
+  font-family: sans-serif;
+}
