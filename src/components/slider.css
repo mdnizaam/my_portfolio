@@ -1,0 +1,36 @@
+.image-slider {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slider-wrapper {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.slide {
+  /* display: none; */
+  transform: translateX(-100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* transition: 0.5s ease-in; */
+}
+
+.slide.active {
+  transform: translateX(0%);
+  transition: 0.9s ease;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+}
