@@ -10,7 +10,7 @@ const Portfolio = () => {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className="flex flex-col justify-center items-center gap-y-3"
+        className="flex flex-col justify-center items-center gap-y-3 py-3"
       >
         <h1 className="text-primary_white text-xl font-semibold">
           My Masterpiece Collection
@@ -21,7 +21,9 @@ const Portfolio = () => {
           fugit aperiam, quia eum
         </p>
       </motion.div>
-      <PortfolioMenu />
+      <div className="py-5">
+        <PortfolioMenu />
+      </div>
     </div>
   );
 };

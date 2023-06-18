@@ -20,25 +20,25 @@ const Navbar = () => {
         <nav className="hidden sm:flex gap-x-10 items-center text-[14px] font-semibold text-yellow-400">
           <Link to="/">Home</Link>
           <Link to="/portfolio">Portfolio</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/skills">Skills</Link>
           <Link to="/services">Services</Link>
           <span className="flex gap-x-3">
-            <Link to="/page1">Contact &nbsp; | </Link>
-            <Link to="/page1">
+            <Link to="/contact">Contact &nbsp; | </Link>
+            <Link to="/">
               <img
                 src="./assets/images/linkedin-icon-v2.png"
                 className="w-6 h-6"
                 alt="linkedin"
               />
             </Link>
-            <Link to="/page1">
+            <Link to="/">
               <img
                 src="./assets/images/instagram-icon-v2.png"
                 className="w-6 h-6"
                 alt="insta"
               />
             </Link>
-            <Link to="/page1">
+            <Link to="https://youtu.be/j5sBGIKotss">
               <img
                 src="./assets/images/youtube-icon-v2.png"
                 className="w-6 h-6"
@@ -73,17 +73,17 @@ const Navbar = () => {
           )}
         </button>
         <div
-          className={`w-full min-h-fit ${
+          className={`w-full min-h-screen  ${
             openMenu ? "block" : "hidden"
           } z-50 absolute right-0 mt-10 bg-gradient-to-l  from-gray-400 via-blue-800  to-gray-600 rounded-md shadow-lg md:static md:mt-0 md:bg-transparent md:shadow-none transition duration-300`}
         >
           <nav className="flex flex-col gap-x-10 items-center text-[14px] font-semibold text-yellow-400">
             <Link to="/">Home</Link>
             <Link to="/portfolio">Portfolio</Link>
-            <Link to="/blog">Blog</Link>
+            <Link to="/skills">Skills</Link>
             <Link to="/services">Services</Link>
             <span className="flex gap-x-3">
-              <Link to="/page1">Contact &nbsp; | </Link>
+              <Link to="/contact">Contact &nbsp; | </Link>
               <Link to="/page1">
                 <img
                   src="./assets/images/linkedin-icon-v2.png"

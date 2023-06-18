@@ -5,19 +5,51 @@ const PortfolioMenu = () => {
   const [activeMenu, setActiveMenu] = useState(0);
   const imageLink = [
     {
-      0: [50, 51, 52, 53, 54, 55, 56],
+      0: [
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-2.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-4.png",
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-2.png",
+      ],
     },
     {
-      1: [57, 58, 59, 60, 61, 61, 63],
+      1: [
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-2.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-4.png",
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-2.png",
+      ],
     },
     {
-      2: [64, 65, 66, 67, 68, 69, 70],
+      2: [
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-2.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-4.png",
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-2.png",
+      ],
     },
     {
-      3: [71, 72, 73, 74, 75, 76, 77],
+      3: [
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-2.png",
+        "./assets/images/bbe-3.png",
+        "./assets/images/bbe-4.png",
+        "./assets/images/bbe-1.png",
+        "./assets/images/bbe-2.png",
+        "./assets/images/bbe-3.png",
+      ],
     },
   ];
-  const menus = ["All", "UI/UX", "Web Developer", "Web Search", "Marketing"];
+  const menus = ["All", "UI/UX", "Web Developer", "Web Search"];
   return (
     <div>
       <nav className="flex justify-center mt-4">

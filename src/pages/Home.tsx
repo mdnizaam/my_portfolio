@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/variants";
 import Contact from "./Contact";
 import Footer from "../components/Footer";
+import Skills from "./Skills";
 
 const Home = () => {
   const handleDone = () => {
@@ -26,7 +27,7 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="pt-[3rem] sm:pt-[8rem] font-bold text-[30px] uppercase text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+            className="pt-[3rem] sm:pt-[8rem] font-bold text-[24px] sm:text-[30px] uppercase text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
           >
             Mohammed Nizam
             <span className="text-yellow-500 font-bold">.</span>
@@ -36,7 +37,7 @@ const Home = () => {
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={["Full Stack Dev", "YouTuber", "Freelancer", "Designer"]}
-                loop={5}
+                loop={false}
                 cursor
                 cursorStyle="|"
                 typeSpeed={90}
@@ -95,7 +96,7 @@ const Home = () => {
           </h1>
           <div className="mb-3">
             <h1 className="text-primary_white font-bold text-3xl uppercase">
-              Front End Developer,
+              Full Stack Developer,
             </h1>
             <h1 className="text-primary_white font-bold text-3xl uppercase">
               React js Developer
@@ -113,6 +114,7 @@ const Home = () => {
         </motion.div>
       </div>
       <Services />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer />

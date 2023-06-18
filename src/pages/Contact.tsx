@@ -17,7 +17,7 @@ const Contact = () => {
     {
       id: 3,
       image: "./assets/images/skype.svg",
-      title: "skype.com",
+      title: "skype",
     },
     {
       id: 4,
@@ -28,6 +28,11 @@ const Contact = () => {
       id: 5,
       image: "./assets/images/instagram.svg",
       title: "instagram",
+    },
+    {
+      id:6,
+      image: "./assets/images/linkedin.svg",
+      title: "LinkedIn",
     },
   ];
   return (
