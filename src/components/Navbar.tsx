@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
   const handleDownload = () => {
-    const fileUrl = "./assets/images/Md nizam (1).pdf"; // Replace with the actual file URL or path
+    const fileUrl = "./assets/images/Md_Nizam_resume.pdf"; // Replace with the actual file URL or path
 
     const link = document.createElement("a");
     link.href = fileUrl;

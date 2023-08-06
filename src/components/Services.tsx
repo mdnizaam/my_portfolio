@@ -6,22 +6,22 @@ import { fadeIn } from "../utils/variants";
 
 const SkillsData: Skill[] = [
   {
-    image: "../assets/images/pen.png",
-    skillName: "UI/UX",
-    projects: "10+",
+    image: "../assets/images/nextjs.svg",
+    skillName: "Next.js Project",
+    projects: "5+",
     exp: "2+",
   },
   {
-    image: "../assets/images/web_development.png",
-    skillName: "Web Development",
-    projects: "30+",
+    image: "../assets/images/reactjs.png",
+    skillName: "React.js Project",
+    projects: "10+",
     exp: "2+",
   },
   {
     image: "../assets/images/full_stack_dev.png",
     skillName: "Full Stack Developer",
-    projects: "10+",
-    exp: "2+",
+    projects: "2+",
+    exp: "1+",
   },
 ];
 const Services = () => {
@@ -40,9 +40,10 @@ const Services = () => {
             What I Am Great At
           </h1>
           <p className="max-w-fit sm:max-w-md text-center text-xs text-primary_white">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut unde,
-            totam laborum nostrum tempore culpa! Porro inventore eum distinctio
-            est. Laboriosam officiis dignissimos magni
+            As a React.js developer with the mentioned professional skills, I
+            can offer a wide range of services to clients seeking to build
+            modern and interactive web applications. Here are some of the
+            services I can provide:
           </p>
         </motion.div>
         <div className="flex flex-col sm:flex-row gap-x-2 justify-center mt-4">

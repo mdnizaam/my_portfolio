@@ -30,7 +30,7 @@ const Contact = () => {
       title: "instagram",
     },
     {
-      id:6,
+      id: 6,
       image: "./assets/images/linkedin.svg",
       title: "LinkedIn",
     },
@@ -50,10 +50,7 @@ const Contact = () => {
             Ways To Contact Me
           </h1>
           <p className="max-w-md text-center text-xs text-primary_white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-            autem recusandae enim mollitia. Deserunt reprehenderit unde veniam
-            fugit aperiam, quia eum, molestiae nam animi cumque velit magni
-            adipisci pariatur natus?
+            Connecting with me is easy! Here are several ways to get in touch:
           </p>
         </motion.div>
         <motion.div

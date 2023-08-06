@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Services from "../components/Services";
 import { Typewriter } from "react-simple-typewriter";
 import Portfolio from "./Portfolio";
@@ -10,11 +10,18 @@ import Skills from "./Skills";
 
 const Home = () => {
   const handleDone = () => {
-    console.log(`Done after 5 loops!`);
+  };
+  const [, setScrollTop] = useState(0);
+
+  const handleScroll = (event: any) => {
+    setScrollTop(event.currentTarget.scrollTop);
   };
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-600  font-montserrat">
-      <div className="flex flex-col sm:flex-row justify-evenly min-h-[calc(100vh-68px)] w-[90%] mx-auto">
+      <div
+        onScroll={handleScroll}
+        className="flex flex-col sm:flex-row justify-evenly min-h-[calc(100vh-68px)] w-[90%] mx-auto"
+      >
         <motion.div
           variants={fadeIn("up", 0.3)}
           initial="hidden"
@@ -106,9 +113,8 @@ const Home = () => {
             </h1>
           </div>
           <p className="text-primary_white text-xs">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
-            distinctio laboriosam hic, dolorem enim accusantium in amet dicta ex
-            vitae.
+            "Experienced React.js Developer: Building Modern and Interactive Web
+            Applications"
           </p>
           <p className="text-yellow-500 text-xs mt-3">Learn More !</p>
         </motion.div>

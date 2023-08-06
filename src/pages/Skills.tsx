@@ -63,16 +63,13 @@ const Skills = () => {
           <h1 className="text-yellow-500 uppercase">My Professional Skills</h1>
 
           <p className="max-w-md text-center text-xs text-primary_white">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-            autem recusandae enim mollitia. Deserunt reprehenderit unde veniam
-            fugit aperiam, quia eum, molestiae nam animi cumque velit magni
-            adipisci pariatur natus?
+            As an experienced React.js developer, I possess a diverse set of
+            professional skills that enable me to build modern and interactive
+            web applications. Some of my key skills include:
           </p>
         </motion.div>
       </div>
-      <div
-      
-      className="w-full px-4 lg:w-5/12">
+      <div className="w-full px-4 lg:w-5/12 mt-6">
         {skillDetails.map((skill: any) => (
           <SkillCard skill={skill} />
         ))}

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="text-xs flex justify-center items-center py-2 gap-x-3 text-primary_white  border-t border-yellow-500">
         <img src="./assets/images/copyright.svg" alt="copyright" /> |
         <h1>Techie Nizam</h1>
-        <h1>All Rights Reserved</h1>
+        <h1>All Rights Reserved - 2023</h1>
       </div>
     </div>
   );

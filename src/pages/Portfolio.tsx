@@ -16,9 +16,11 @@ const Portfolio = () => {
           My Masterpiece Collection
         </h1>
         <p className="max-w-md text-center text-xs text-primary_white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-          autem recusandae enim mollitia. Deserunt reprehenderit unde veniam
-          fugit aperiam, quia eum
+          As a React.js developer, my showcase collections demonstrate my
+          proficiency and creativity in developing diverse web applications and
+          user interfaces. These collections showcase a selection of projects
+          that highlight my skills and expertise in delivering high-quality
+          solutions. Here are some key aspects of my showcase collections:
         </p>
       </motion.div>
       <div className="py-5">
