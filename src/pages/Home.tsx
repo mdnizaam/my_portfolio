@@ -9,8 +9,7 @@ import Footer from "../components/Footer";
 import Skills from "./Skills";
 
 const Home = () => {
-  const handleDone = () => {
-  };
+  const handleDone = () => {};
   const [, setScrollTop] = useState(0);
 
   const handleScroll = (event: any) => {
@@ -43,7 +42,7 @@ const Home = () => {
             <span style={{ color: "#E7A035", fontWeight: "bold" }}>
               {/* Style will be inherited from the parent element */}
               <Typewriter
-                words={["Full Stack Dev", "YouTuber", "Freelancer", "Designer"]}
+                words={["Full Stack Dev", "YouTuber", "Front-End Dev"]}
                 loop={false}
                 cursor
                 cursorStyle="|"
@@ -60,10 +59,36 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-primary_white text-sm mt-3 font-semibold"
+            className="text-primary_white text-sm my-4 font-semibold"
           >
-            <h1>Instagram | LinkedIn</h1>
-            <h1>Youtube | Twitter</h1>
+            <h1>
+              {" "}
+              <a
+                href="https://www.instagram.com/techie_nizam/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://www.linkedin.com/in/mdnizam786/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>{" "}
+            </h1>
+            <h1>
+              <a
+                href="https://www.youtube.com/@techienizam3249"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Youtube
+              </a>{" "}
+              | <button>Twitter</button>{" "}
+            </h1>
           </motion.div>
           <motion.div
             variants={fadeIn("up", 0.3)}
@@ -71,9 +96,12 @@ const Home = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            <button className="uppercase outline-none border text-yellow-500 border-yellow-400 px-3 py-2 mt-3">
-              Contact Me
-            </button>
+            <a
+              href="tel:8770872737"
+              className="uppercase outline-none border text-yellow-500 border-yellow-400 px-3 py-2 my-3"
+            >
+              Call Me
+            </a>
           </motion.div>
         </motion.div>
         <div className="w-[35%] hidden sm:block">
@@ -103,20 +131,20 @@ const Home = () => {
           </h1>
           <div className="mb-3">
             <h1 className="text-primary_white font-bold text-3xl uppercase">
-              Full Stack Developer,
+              Front-End Developer,
             </h1>
             <h1 className="text-primary_white font-bold text-3xl uppercase">
-              React js Developer
+              Having
             </h1>
             <h1 className="text-primary_white font-bold text-3xl uppercase">
-              2+ Years Experience
+              3+ Years of Experience
             </h1>
           </div>
           <p className="text-primary_white text-xs">
-            "Experienced React.js Developer: Building Modern and Interactive Web
-            Applications"
+            "Experienced Front-end Developer: Building Modern and Interactive
+            Web Applications"
           </p>
-          <p className="text-yellow-500 text-xs mt-3">Learn More !</p>
+          <button className="text-yellow-500 text-xs mt-3">Learn More !</button>
         </motion.div>
       </div>
       <Services />
