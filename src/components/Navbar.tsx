@@ -24,27 +24,39 @@ const Navbar = () => {
           <Link to="/services">Services</Link>
           <span className="flex gap-x-3">
             <Link to="/contact">Contact &nbsp; | </Link>
-            <Link to="/">
+            <a
+              href="https://www.linkedin.com/in/mdnizam786/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./assets/images/linkedin-icon-v2.png"
                 className="w-6 h-6"
                 alt="linkedin"
               />
-            </Link>
-            <Link to="/">
+            </a>
+            <a
+              href="https://www.instagram.com/techie_nizam/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./assets/images/instagram-icon-v2.png"
                 className="w-6 h-6"
                 alt="insta"
               />
-            </Link>
-            <Link to="https://youtu.be/j5sBGIKotss">
+            </a>
+            <a
+              href="https://www.youtube.com/@techienizam3249"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./assets/images/youtube-icon-v2.png"
                 className="w-6 h-6"
                 alt="youtube"
               />
-            </Link>
+            </a>
             <Link
               to="#"
               onClick={(e) => {
